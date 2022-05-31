@@ -1,0 +1,23 @@
+.game_font{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+text-orientation: mixed;
+
+
+            font-size: 50px;
+            text-shadow: -1px 1px 0 #fff,
+                          1px 1px 0 #fff,
+                         1px -1px 0 #fff,
+                        -1px -1px 0 #fff;
+}
+.gamePage{
+    
+        background-image:url("../../Assets/homebg.png") ;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

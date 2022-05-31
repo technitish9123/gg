@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../../../../OneDrive/Desktop/gg/functions/test/test.ts"],
+  "sourceRoot": "C:/Users/kumar/AppData/Local/Temp/tmp-11916-ydbcJv0JPNob",
+  "sourcesContent": ["import { schedule } from '@netlify/functions';\n\n// To learn about scheduled functions and supported cron extensions, \n// see: https://ntl.fyi/sched-func\nexport const handler = () =>\nfetch(\"/functions/test\", { headers: { accept: \"Accept: application/json\" } })\n  .then((x) => x.json())\n//   .then(({ msg }) => setMsg(msg))"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAIO,IAAM,UAAU,MACvB,MAAM,mBAAmB,EAAE,SAAS,EAAE,QAAQ,2BAA2B,EAAE,CAAC,EACzE,KAAK,CAAC,MAAM,EAAE,KAAK,CAAC;",
+  "names": []
+}
